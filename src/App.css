@@ -1,0 +1,11 @@
+.about-section{
+ height: 70vh;
+}
+
+.banner{
+ background-image: url(./assets/hermes-rivera-Ww8eQWjMJWk-unsplash.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 100vh;
+}
+
