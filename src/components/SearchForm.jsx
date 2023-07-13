@@ -14,11 +14,11 @@ const SearchForm = () => {
     setSearchValue(inputContainer.current.value);
   }
   return (
-    <div className="my-2 align-content-center">
+    <div className="my-2 ">
       <form onSubmit={handleSubmit} className="w-100 w-md-50 mx-auto">
      <label htmlFor="name" className="form-label text-success fw-bold fs-4 text-center ">
       Search for your favorite Meal</label>
-        <input type="text" className="form-control w-25" id="name" ref={inputContainer} onChange={searchMeal}/>
+        <input type="text" className="form-control" id="name" ref={inputContainer} onChange={searchMeal}/>
       </form>
     </div>
   );
